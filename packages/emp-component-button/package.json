@@ -1,0 +1,15 @@
+{
+  "name": "emp-component-button",
+  "version": "0.0.1",
+  "description": "eMPoweRx Button Component",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}
