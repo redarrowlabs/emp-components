@@ -1,7 +1,7 @@
 {
-  "name": "emp-component-button",
+  "name": "emp-component-save-cancel",
   "version": "0.0.1",
-  "description": "eMPoweRx Button Component",
+  "description": "save/cancel section",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel index.js -d lib",
@@ -10,7 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "emp-component-button": "^0.0.1"
   }
 }
