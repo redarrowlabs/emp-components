@@ -1,7 +1,10 @@
+$main: red;
+$color: yellow;
+
 .emp-c-button {
-    background-color: green;
+    background-color: $main;
     border-radius: 1em;
     padding: 1em;
-    color: rebeccapurple;
+    color: $color;
     font-weight: bold;
 }
