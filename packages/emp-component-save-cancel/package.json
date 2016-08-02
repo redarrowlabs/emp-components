@@ -1,6 +1,6 @@
 {
   "name": "emp-component-save-cancel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "save/cancel section",
   "main": "lib/index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "emp-component-button": "^0.0.2"
+    "emp-component-button": "^0.0.3"
   }
 }

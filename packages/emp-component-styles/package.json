@@ -1,6 +1,6 @@
 {
   "name": "emp-component-styles",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "default styles for emp-components",
   "main": "lib/styles.css",
   "scripts": {
