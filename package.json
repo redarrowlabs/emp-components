@@ -4,7 +4,7 @@
   "description": "eMPoweRx UI Components",
   "main": "index.js",
   "scripts": {
-    "watch": "nodemon --ignore \"*/lib/*.js\" --exec \"npm run build\"",
+    "watch": "nodemon --ext js,json,scss --ignore \"*/lib/*.js\" --exec \"npm run build\"",
     "build": "lerna run build",
     "publish": "lerna publish --skip-npm",
     "test": "echo \"Error: no test specified\" && exit 1",
