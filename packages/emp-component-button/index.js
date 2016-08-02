@@ -1,5 +1,5 @@
 import React from 'react';
 
 export function Button(props){
-    return <button>{props.children}</button>;
+    return <button className="emp-c-button">{props.children}</button>;
 }

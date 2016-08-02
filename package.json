@@ -4,6 +4,7 @@
   "description": "eMPoweRx UI Components",
   "main": "index.js",
   "scripts": {
+    "watch": "nodemon --ignore \"*/lib/*.js\" --exec \"npm run build\"",
     "build": "lerna run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 9001"
@@ -23,7 +24,12 @@
     "babel-cli": "^6.11.4",
     "babel-core": "^6.11.4",
     "babel-preset-react": "^6.11.1",
-    "lerna": "2.0.0-beta.24"
+    "css-loader": "^0.23.1",
+    "lerna": "2.0.0-beta.24",
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.10.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1"
   },
   "dependencies": {
     "react": "^15.3.0",
