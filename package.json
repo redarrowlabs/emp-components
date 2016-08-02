@@ -6,6 +6,7 @@
   "scripts": {
     "watch": "nodemon --ignore \"*/lib/*.js\" --exec \"npm run build\"",
     "build": "lerna run build",
+    "publish": "lerna publish --skip-npm",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 9001"
   },
